@@ -21,3 +21,8 @@ This project demonstrates the containerization of a simple Flask web application
 - Easy to build and run locally
 
 ---
+## 📸 Screenshot
+
+![App Screenshot](screenshot.png)
+
+---
