@@ -58,7 +58,7 @@ This project uses GitHub Actions to automate the build process.
 
 * Triggered on every push to `main` branch
 * Builds Docker image automatically
-* (Optional) Pushes image to Docker Hub
+* Pushes image to Docker Hub
 
 ---
 
