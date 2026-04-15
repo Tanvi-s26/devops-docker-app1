@@ -77,6 +77,13 @@ minikube service flask-service
 Application successfully deployed and accessed via browser.
 
 ---
+## 📸 Kubernetes Output
+
+### Pods Running
+
+![Pods Screenshot](k8s-pods.png)
+
+---
 
 ## 🔄 CI/CD Pipeline
 
