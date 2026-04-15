@@ -47,6 +47,34 @@ docker run -p 5000:5000 flask-app
 ```
 http://localhost:5000
 ```
+## 🚀 Kubernetes Deployment
+
+This project is deployed using Kubernetes (Minikube).
+
+### 📦 Steps Performed
+
+1. Built Docker image for Flask app
+2. Pushed image to Docker Hub
+3. Created Kubernetes Deployment (2 replicas)
+4. Exposed app using NodePort Service
+
+### 🧱 Kubernetes Components
+
+* Deployment → Manages Pods
+* Pods → Run application containers
+* Service → Exposes app to browser
+
+### ▶️ Commands Used
+
+```bash
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+minikube service flask-service
+```
+
+### 📸 Output
+
+Application successfully deployed and accessed via browser.
 
 ---
 
